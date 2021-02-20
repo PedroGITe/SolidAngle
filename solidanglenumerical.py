@@ -50,7 +50,7 @@ while True:
     #Calculation of the heuman's lambda function (HL)
     HL = 2/pi * (E*Finc + K*Einc - K*Finc)
 
-    #Calculation of the solid angle (Omega)
+    #Calculation of the solid angle (Omega).
     if r_0<r_m:
         Omega=2*pi-(2*L/Rmax)*K-pi*HL
     if r_0>r_m:
