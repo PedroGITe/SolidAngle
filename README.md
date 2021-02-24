@@ -6,6 +6,9 @@ Offset from the disk axis = r_0
 Distance from the source point to the desk in the disk axis direction = L
 
 
+For faster results use the fast_num.py and change the variables directly
+
+
 RUN run.py after installing dependencies:
 
     from scipy.special import ellipk
